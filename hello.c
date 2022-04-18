@@ -365,6 +365,34 @@ int main() {
     }
     printf("%d. power of %d is %d", pow, tempNumber, number);*/
 
+    //Finding maximum value in array
+    /*int digits[10] = {5, 3, 9, 6, 9, 7, 6, 2, 4, 4};
+    int max = digits[0];
+    for (int i = 1; i < 10; i++) {
+        if (max < digits[i]) {
+            max = digits[i];
+        }
+    }
+    printf("The maximum number is %d",max);*/
+
+    //Finding index of the max value in array
+    int digits[10];
+    int index;
+    int max;
+
+    for (int i = 0; i < 10; i++) {
+        printf("Enter the number\n");
+        scanf("%d", &digits[i]);
+        if (i == 0) {
+            max = digits[0];
+        } else if (max < digits[i]) {
+            max = digits[i];
+            index = i;
+        }
+    }
+
+    printf("The index of maximum number is %d", index);
+
 
     return 0;
 }
