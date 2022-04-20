@@ -376,7 +376,7 @@ int main() {
     printf("The maximum number is %d",max);*/
 
     //Finding index of the max value in array
-    int digits[10];
+    /*int digits[10];
     int index;
     int max;
 
@@ -391,7 +391,19 @@ int main() {
         }
     }
 
-    printf("The index of maximum number is %d", index);
+    printf("The index of maximum number is %d", index);*/
+
+    //Printing array in reverse order
+    /*int pullUps[10];
+
+    for(int i=0;i<10;i++){
+        printf("Enter the number of pullups on the day %d\n",i+1);
+        scanf("%d",&pullUps[i]);
+    }
+
+    for(int i=9;i>=0;i--){
+        printf("%d days ago you did %d pullups\n",9-i,pullUps[i]);
+    }*/
 
 
     return 0;
