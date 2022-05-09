@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 #include <stdbool.h>
 
 int main() {
@@ -55,10 +55,9 @@ int main() {
     printf("\n");
 
     return 0;
-}
-
+}*/
 
 //
-// Created by User on 21.04.2022.
+// Created by User on 9.05.2022.
 //
 

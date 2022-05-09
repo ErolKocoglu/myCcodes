@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
+/*#include <stdio.h>
 
 #define SIZE 30
 #define MA_SIZE 5
@@ -51,7 +50,7 @@ int main() {
     print_averages(exchange_rate, cumulative_average, moving_average, SIZE);
 
     return 0;
-}
+}*/
 
 //
 // Created by User on 21.04.2022.

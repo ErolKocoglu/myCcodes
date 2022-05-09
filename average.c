@@ -30,13 +30,6 @@
         }
         movingAvg[i] = total / WIN_SIZE;
     }*/
-    /*for (int i = 0; i <= SIZE - WIN_SIZE; i++) {
-        total = 0;
-        for (int j = i; j < j + WIN_SIZE; j++) {
-            total += input[j];
-        }
-        movingAvg[i] = total / WIN_SIZE;
-    }*/
 
     //printf("-Exchange Rate - Cumulative Average - Moving Average -\n");
     /*for (int i = 0; i < SIZE; i++) {

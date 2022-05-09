@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <math.h>
+
 
 int main() {
     printf("Hello, World!\n");
@@ -405,6 +405,17 @@ int main() {
         printf("%d days ago you did %d pullups\n",9-i,pullUps[i]);
     }*/
 
+    //Enter Pointers Subject
+    int a = 5;
+    int *p;
+    int *r;
+    p = &a;
+    r = p;
+    printf("%p\n", &a);
+    printf("%d\n", *p);
+    printf("%p\n", r);
+    printf("%d", *r);
+    scanf("%d", &a);
 
     return 0;
 }
